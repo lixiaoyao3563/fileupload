@@ -7,12 +7,14 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>fileupload Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <properties>
+  	<spring-core-version>4.3.18.RELEASE</spring-core-version>
+  </properties>
   <dependencies>
-  
   	<dependency>
 	    <groupId>org.springframework</groupId>
 	    <artifactId>spring-core</artifactId>
-	    <version>4.3.18.RELEASE</version>
+	    <version>${spring-core-version}</version>
 	</dependency>
   
  	<dependency>
